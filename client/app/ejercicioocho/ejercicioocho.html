@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="form-group">
+
+    <label for="">L</label>
+    <input type="number" class="form-control" placeholder="Largo de la Alberca" ng-model="vm.L">
+
+    <label for="">N</label>
+    <input type="number" class="form-control" placeholder="Ancho de la Alberca" ng-model="vm.N">
+
+    <label for="">A</label>
+    <input type="number" class="form-control" placeholder="Altura de la Alberca" ng-model="vm.A">
+
+    <label for="">CM</label>
+    <input type="number" class="form-control" placeholder="Costo del Metro Cubico" ng-model="vm.CM">
+
+    <button type="button" class="col-xs-4 col-xs-offset-4" ng-click="vm.calcular()">Resultado</button>
+  </div>
+
+</div>
+<p class="text-center">El resultado del volumen de la alberca es: {{vm.V}} Metros</p>
+<p class="text-center">El pago a realizar por el consumo es: {{vm.PAG}}</p>

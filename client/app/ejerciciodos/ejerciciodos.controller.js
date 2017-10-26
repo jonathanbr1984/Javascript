@@ -4,11 +4,15 @@
 
     class EjercicioDosController {
 
-        constructor() {}
+        constructor() {
+            this.a;
+            this.b;
+            this.area;
+        }
 
         $onInit() {}
         calcular() {
-            this.area = this.a * this.b;
+            this.area = this.b * this.a;
         }
     }
 

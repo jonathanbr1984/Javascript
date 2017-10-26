@@ -5,6 +5,8 @@
     class EjercicioTresController {
 
         constructor() {
+            this.r;
+            this.area;
             this.pi = 3.1416;
         }
 

@@ -1,18 +1,19 @@
-<div class="container" ng-submit="calcular()">
+<form class="container form-group">
 
     <label for="">C1</label>
-    <input type="number" placeholder="Calificacion #1" ng-model="vm.c1">
+    <input class="form-control" type="number" placeholder="Calificacion #1" ng-model="vm.c1">
 
     <label for="">C2</label>
-    <input type="number" placeholder="Calificacion #2" ng-model="vm.c2">
+    <input class="form-control" type="number" placeholder="Calificacion #2" ng-model="vm.c2">
 
     <label for="">C3</label>
-    <input type="number" placeholder="Calificacion #3" ng-model="vm.c3">
+    <input class="form-control" type="number" placeholder="Calificacion #3" ng-model="vm.c3">
 
     <label for="">C4</label>
-    <input type="number" placeholder="Calificacion #4" ng-model="vm.c4">
+    <input class="form-control" type="number" placeholder="Calificacion #4" ng-model="vm.c4">
 
-    <button type="submit">Resultado</button>
+    <button class="btn btn-primary" type="button" ng-click="vm.calcular()">Resultado</button>
 
-    <p>El resultado del promedio calculado es: {{vm.p}}</p>
-</div>
+</form>
+<p class="text-center">El resultado calculado es: {{vm.s}}</p>
+<p class="text-center">El resultado del promedio calculado es: {{vm.p}}</p>

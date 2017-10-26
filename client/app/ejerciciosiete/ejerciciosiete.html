@@ -1,0 +1,13 @@
+<div class="container form-group">
+
+    <label for="">HT</label>
+    <input type="number" class="form-control" placeholder="Horas Trabajadas" ng-model="vm.ht">
+
+    <label for="">PH</label>
+    <input type="number" class="form-control" placeholder="Pago por Hora" ng-model="vm.ph">
+
+    <button class="col-xs-4 col-xs-offset-4" type="button" ng-click="vm.calcular()">Calcular</button>
+
+</div>
+
+<p class="text-center">El resultado del Sueldo Semanal es: {{vm.ss}}</p>

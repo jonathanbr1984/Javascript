@@ -4,13 +4,17 @@
 
     class EjercicioCuatroController {
 
-        constructor() {}
+        constructor() {
+            this.A;
+            this.B;
+            this.C;
+            this.areaTriangulo;
+            this.areaRectangulo;
+            this.area
+        }
 
         $onInit() {}
         obtenerArea() {
-            //this.A;
-            //this.B;
-            //this.C;
             this.areaTriangulo = this.B + (this.A - this.C) / 2;
             this.areaRectangulo = this.B * this.C;
             this.area = this.areaTriangulo + this.areaRectangulo;

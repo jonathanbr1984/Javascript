@@ -1,13 +1,13 @@
-<div class="container" ng-submit="obtenerArea()">
+<div class="container form-group">
 
     <label for="">Numero 1</label>
-    <input type="number" placeholder="Digite A" ng-model="vm.A">
+    <input type="number" class="form-control" placeholder="Digite A" ng-model="vm.A">
     <label for="">Numero 2</label>
-    <input type="number" placeholder="Digite B" ng-model="vm.B">
+    <input type="number" class="form-control" placeholder="Digite B" ng-model="vm.B">
     <label for="">Numero 3</label>
-    <input type="number" placeholder="Digite C" ng-model="vm.C">
+    <input type="number" class="form-control" placeholder="Digite C" ng-model="vm.C">
 
-    <button type="submit">Resultado</button>
+    <button type="button" ng-click="vm.obtenerArea()">Resultado</button>
 
-    <p>El Area de la figura es: {{vm.area}}</p>
+    <p class="text-center">El Area de la figura es: {{vm.area}}</p>
 </div>

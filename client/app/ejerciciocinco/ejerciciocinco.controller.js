@@ -5,7 +5,13 @@
     class EjercicioCincoController {
 
         constructor() {
+            this.c;
+            this.h;
+            this.r;
+            this.at;
+            this.ac;
             this.pi = 3.1416;
+            this.area2;
         }
 
         $onInit() {}

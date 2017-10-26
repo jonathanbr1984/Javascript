@@ -1,9 +1,9 @@
-<div class="container" ng-submit="calcular()">
+<form class="container form-group">
 
     <label for="">R</label>
-    <input type="number" placeholder="radio de la circunferencia" ng-model="vm.r">
+    <input type="number" class="form-control" placeholder="radio de la circunferencia" ng-model="vm.r">
 
-    <button type="submit">Calcular</button>
+    <button ng-click="vm.calcular()">Calcular</button>
 
-    <p>El resultado del area de la circunferencia es: {{vm.area}}</p>
-</div>
+    <p class="text-center">El resultado del area de la circunferencia es: {{vm.area}}</p>
+    </div>

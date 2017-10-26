@@ -4,12 +4,20 @@
 
     class EjercicioUnoController {
 
-        constructor() {}
+        constructor() {
+            this.c1;
+            this.c2;
+            this.c3;
+            this.c4;
+            this.p;
+            this.s;
+        }
 
         $onInit() {}
         calcular() {
+            console.log("calificaciones");
             this.s = this.c1 + this.c2 + this.c3 + this.c4;
-            this.p = this.p / 2;
+            this.p = this.s / 4;
         }
     }
 

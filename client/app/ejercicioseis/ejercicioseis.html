@@ -1,0 +1,21 @@
+<div class="container form-group">
+
+    <label for="">X1</label>
+    <input type="number" class="form-control" placeholder="Abscisas #1" ng-model="vm.x1">
+
+    <label for="">X2</label>
+    <input type="number" class="form-control" placeholder="Abscisas #2" ng-model="vm.x2">
+
+    <label for="">Y2</label>
+    <input type="number" class="form-control" placeholder="Ordenadas #1" ng-model="vm.y2">
+
+    <label for="">Y1</label>
+    <input type="number" class="form-control" placeholder="Ordenadas #2" ng-model="vm.y1">
+
+    <button type="button" class="col-xs-4 col-xs-offset-4 btn btn-primary" ng-click="vm.calcular()">Resultado</button>
+
+
+</div>
+<p class="text-center">El resultado de Cateto de las Abscisas es: {{vm.x}}</p>
+<p class="text-center">El resultado de Cateto de las Abscisas es: {{vm.y}}</p>
+<p class="text-center">El resultado de la distancia entre puntos es: {{vm.h}}</p>

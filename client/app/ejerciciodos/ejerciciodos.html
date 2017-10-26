@@ -1,12 +1,12 @@
-<div class="container" ng-submit="calcular()">
+<form class="form-group container">
 
     <label for="">A</label>
-    <input type="" placeholder="Altura del rectangulo" ng-model="vm.a">
+    <input type="number" class="form-control" placeholder="Altura del rectangulo" ng-model="vm.a">
 
     <label for="">B</label>
-    <input type="" placeholder="Base del rectangulo" ng-submit="vm.b">
+    <input type="number" class="form-control" placeholder="Base del rectangulo" ng-model="vm.b">
 
-    <button type="submit">Resultado</button>
+    <button type="button" ng-click="vm.calcular()">Resultado</button>
 
-    <p>El resultado area del rectangulo es: {{vm.area}}</p>
-</div>
+</form>
+<p class="text-center">El resultado area del rectangulo es: {{vm.area}}</p>

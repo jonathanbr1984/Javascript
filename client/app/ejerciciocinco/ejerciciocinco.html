@@ -1,11 +1,14 @@
-<div class="container" ng-submit="rectangulo()">
+<div class="container form-group">
 
     <label for="">r</label>
-    <input type="number" placeholder="Base del triangulo y radio" ng-model="vm.r">
+    <input type="number" class="form-control" placeholder="Base del triangulo y radio" ng-model="vm.r">
     <label for="">h</label>
-    <input type="number" placeholder="Hipotenusa del triangulo rectangulo" ng-model="vm.h">
+    <input type="number" class="form-control" placeholder="Hipotenusa del triangulo rectangulo" ng-model="vm.h">
 
-    <button type="submit">Resultado</button>
+    <button ng-click="vm.rectangulo()" type="button">Resultado</button>
 
-    <p>El resultado de la raiz cuadrada: {{vm.area2}}</p>
+    <p class="text-center">El resultado de cateto faltante: {{vm.c}}</p>
+    <p class="text-center">El resultado de Area Triangular: {{vm.at}}</p>
+    <p class="text-center">El resultado de Area Circular {{vm.ac}}</p>
+    <p class="text-center">El resultado de la Raiz Cuadrada: {{vm.area2}}</p>
 </div>
