@@ -3,9 +3,9 @@
 angular.module('javascriptApp')
     .config(function($stateProvider) {
         $stateProvider
-            .state('ejerciciodiez', {
-                url: '/ejerciciodiez',
+            .state('ejercicio-dieciseis', {
+                url: '/ejercicio-dieciseis',
                 parent: 'menu',
-                template: '<ejerciciodiez></ejerciciodiez>'
+                template: '<ejercicio-dieciseis></ejercicio-dieciseis>'
             });
     });

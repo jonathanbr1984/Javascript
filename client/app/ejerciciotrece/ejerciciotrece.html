@@ -1,22 +1,24 @@
-<div class="container">
-    <h2 class="text-center">Compañia Telefonica "Chimefon"</h2>
-    <div class="form-group">
+<!--div class="container"-->
+<h2 class="text-center">Compañia Telefonica "Chimefon"</h2>
+<div class="form-group">
 
-        <label>Tiempo</label>
-        <input class="form-control" type="number" placeholder="Duracion de la llamada" ng-model="vm.ti">
+    <label>Tiempo</label>
+    <input class="form-control" type="number" placeholder="Duracion de la llamada" ng-model="vm.ti">
 
-        <label>Tipo de Dia</label>
-        <input class="form-control" type="text" placeholder="El dia" ng-model="vm.di">
+    <label>Tipo de Dia</label>
+    <input class="form-control" type="text" placeholder="El dia" ng-model="vm.di">
 
-        <label>Turno</label>
-        <input class="form-control" type="text" placeholder="El turno" ng-model="vm.tu">
+    <label>Turno</label>
+    <input class="form-control" type="text" placeholder="El turno" ng-model="vm.tu">
 
-        <button class="col-xs-4 col-xs-offset-4" type="buttom" ng-click="vm.calcular()">Resultado</button>
-    </div>
+    <button class="col-xs-4 col-xs-offset-4" type="buttom" ng-click="vm.calcular()">Resultado</button>
 </div>
-<p class="text-center">duracion de la llamada {{vm.ti}}</p>
-<p class="text-center">el dia {{vm.di}}</p>
-<p class="text-center">el turno {{vm.tu}}</p>
-<p class="text-center">pago por el tiempo {{vm.pag}}</p>
-<p class="text-center">impuesto a pagar {{vm.imp}}</p>
-<p class="text-center">Total que se va a pagar {{vm.tot}}</p>
+<!--/div-->
+<div class="text-center">
+    <p class="text-center">duracion de la llamada {{vm.ti}}</p>
+    <p class="text-center">el dia {{vm.di}}</p>
+    <p class="text-center">el turno {{vm.tu}}</p>
+    <p class="text-center">pago por el tiempo {{vm.pag}}</p>
+    <p class="text-center">impuesto a pagar {{vm.imp}}</p>
+    <p class="text-center">Total que se va a pagar {{vm.tot}}</p>
+</div>

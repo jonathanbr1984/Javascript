@@ -1,0 +1,29 @@
+<!--div class="container"-->
+<p class="text-center">Compañia de viajes</p>
+<div class="form-group">
+    <label for="">Tipo de autobuses</label>
+    <select class="form-control" ng-model="vm.ti">
+            <option value="">Seleccione el tipo de bus</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+
+    <label for="">numero de persona real</label>
+    <input class="form-control" type="number" ng-model="vm.npr">
+
+    <label for="">Kilometros por recorrer</label>
+    <input class="form-control" type="number" ng-model="vm.km">
+
+    <button class="col-xs-4 col-xs-offset-4" type="buttom" ng-click="vm.calcular()">Resultado</button>
+</div>
+<!--/div-->
+<div class="text-center">
+    <p>tipo de autobus {{vm.ti}}</p>
+    <p>Kilometros por recorrer {{vm.km}}</p>
+    <p>numero de personas real {{vm.npr}}</p>
+    <p>Costo por kilometro {{vm.ck}}</p>
+    <p>numero de personas para presupuestar {{vm.np}}</p>
+    <p>costo por persona {{vm.cp}}</p>
+    <p>costo total del viaje {{vm.to}}</p>
+</div>

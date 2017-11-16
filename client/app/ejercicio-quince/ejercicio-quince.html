@@ -1,0 +1,29 @@
+<div class="form-group">
+    <h2>El Naufrago Satisfecho</h2>
+
+    <label for=""></label>
+    <select class="form-control" ng-model="vm.ti">
+        <option value="">Tipo de hamburguesa</option>
+        <option value="sencilla">Hamburguesas Sencillas</option>
+        <option value="doble">Hamburguesas Dobles</option>
+        <option value="triple">Hamburguesas Triples</option>
+    </select>
+
+    <label for="">Numero de Hamburguesas</label>
+    <input class="form-control" type="number" ng-model="vm.n">
+
+    <label for="">Tipo de Pago</label>
+    <input class="form-control" type="text" ng-model="vm.tp">
+
+    <button class="col-xs-4 col-xs-offset-4" type="buttom" ng-click="vm.calcular()">Precio</button>
+</div>
+
+<div class="text-center">
+    <p>tipo de hamburguesa {{vm.ti}}</p>
+    <p>numero de hamburguesa {{vm.n}}</p>
+    <p>tipo de pago {{vm.tp}}</p>
+    <p>precio de la hamburguesa {{vm.pa}}</p>
+    <p>Cargo por el uso de tarjeta {{vm.ca}}</p>
+    <p>Total sin cargo {{vm.to}}</p>
+    <p>Total con cargo {{vm.tot}}</p>
+</div>

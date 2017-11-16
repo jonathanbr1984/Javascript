@@ -4,6 +4,7 @@ angular.module('javascriptApp')
         $stateProvider
             .state('ejerciciodoce', {
                 url: '/ejerciciodoce',
+                parent: 'menu',
                 template: '<ejerciciodoce></ejerciciodoce>'
             });
     });

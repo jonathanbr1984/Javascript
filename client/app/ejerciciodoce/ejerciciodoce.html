@@ -1,15 +1,15 @@
-<div class="container">
-    <h2 class="text-center">La Langosta Ahumada</h2>
-    <div class="form-group">
+<!--div class="container"-->
+<h2 class="text-center">La Langosta Ahumada</h2>
+<div class="form-group">
 
-        <label>Numero de personas</label>
-        <input class="form-control" type="number" placeholder="Numero de personas" ng-model="vm.np">
+    <label>Numero de personas</label>
+    <input class="form-control" type="number" placeholder="Numero de personas" ng-model="vm.np">
 
-        <!--label>Total que va a pagar por banquete</label>
+    <!--label>Total que va a pagar por banquete</label>
         <input type="number" class="form-control" placeholder="Total que va a pagar por banquete" ng-model="vm.tot"-->
 
-        <button type="button" class="col-xs-4 col-xs-offset-4" ng-click="vm.calcular()">Resultado</button>
-    </div>
-    
+    <button type="button" class="col-xs-4 col-xs-offset-4" ng-click="vm.calcular()">Resultado</button>
 </div>
+
+<!--/div-->
 <p class="text-center">El costo del platillo es: {{vm.tot}} </p>
