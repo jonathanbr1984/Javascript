@@ -1,0 +1,19 @@
+<form class="form-group">
+    <h2>Fabricas El Cometa</h2>
+
+    <label for="">Clave del Articulo</label>
+    <input class="form-control" type="number" ng-model="vm.c">
+
+    <label for="">Costo de Materia Prima</label>
+    <input class="form-control" type="number" ng-model="vm.mp">
+
+    <button class="col-xs-4 col-xs-offset-4" type="button" ng-click="vm.calcular()">Resultado</button>
+</form>
+<div class="text-center">
+    <p>Clave del Articulo {{vm.c}}</p>
+    <p>Costo de Materia Prima {{vm.mp}}</p>
+    <p>Costo de Mano de Obra {{vm.mo}}</p>
+    <p>Gastos de Fabricacion {{vm.gf}}</p>
+    <p class="text-success">Costos de Produccion {{vm.cp}}</p>
+    <p class="text-success">Precio de Venta {{vm.pv}}</p>
+</div>
